@@ -1,7 +1,8 @@
 runtime: python27
 api_version: 1
 threadsafe: true
-
+service: dev
+env: flex
 handlers:
 - url: /.*
   script: main.app
