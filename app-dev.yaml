@@ -1,7 +1,7 @@
 runtime: python
 api_version: 1
 threadsafe: true
-service: dev
+service: devflex
 env: flex
 handlers:
 - url: /.*
